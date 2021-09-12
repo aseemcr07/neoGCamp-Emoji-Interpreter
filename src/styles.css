@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.App {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+body {
+  margin: 0px;
+}
+
+/** Input box **/
+input {
+  padding: 1rem;
+  margin-top: 3rem;
+  width: 80%;
+  font-size: large;
+}
+
+.meaning {
+  padding: 1rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/** Section **/
+.emoji-dictionary {
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: #f3f4f6;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.header {
+  padding-bottom: 1rem;
+}
+
+.emoji-list {
+  padding: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
